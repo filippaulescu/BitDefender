@@ -53,9 +53,11 @@ fn run_search(data: &IndexType, terms: Vec<&str>){
     let mut counter: HashMap<DocumentID, u64> = HashMap::new();
     for term in &terms{
             if let Some(docs) = data.get(*term){
-
+                for unit in docs{
+                    
+                }
             }else{
-                
+
             }
     }
 }
